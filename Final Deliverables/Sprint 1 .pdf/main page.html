@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HEART DISEASE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: yellow;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: pink;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: pink;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: violet;
+  padding: 10px;
+  text-align: center;
+  color: violet;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h1>VISUALIZING AND PREDICTING HEART DISEASE</h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="login.html">*HOME*</a></li>
+      <li><a href="heartdieaseprediction.java">*PREDICTION*</a></li>
+      <li><a href="detail.html">*DETAILS*</a></li>
+      <li><a href="CAUSES.HTML">*CAUSES,SYMPTOMS AND TREATMENT*</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    
+    <p>The leading cause of death in the developed world is heart disease. Therefore, there needs to be work done to help prevent the risks of having a heart attack or stroke.The heart disease can be predicted in previous stage to avoid death.</p>
+    <p>Team Members</p>
+    <p>1.Ramya.V</p>
+    <p>2.Ridhanya.G</p>
+    <p>3.Swetha.M</p>
+    <p>4.Taanusri.S.R</p>
+    
+  </article>
+</section>
+
+<footer>
+  <img src="h1.jfif"></img>
+  <img src="h2.jfif"></img>
+  <img src="h3.jfif"></img>
+  <img src="h4.jfif"></img>
+</footer>
+
+</body>
+</html>
