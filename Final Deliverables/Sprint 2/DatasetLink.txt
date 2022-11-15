@@ -1,0 +1,6 @@
+Medica Norte Hospital
+https://www.medica-norte.com.mx/
+Site is not working.
+So we cannot download dataset.
+Instead of we collect dataset from uci machine learning repository.
+http://archive.ics.uci.edu/ml/datasets/heart+Disease
